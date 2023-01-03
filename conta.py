@@ -9,7 +9,8 @@ O saldo inicial é sempre de R$ 0,00.
 A cada saque ou depósito atualize o valor do saldo e apresente-o na tela.
 '''
 
-class Conta():
+class Conta:
+    
     def __init__(self, nome,saldo = 0 ):        
         self.saldo = saldo
         self.nome = nome

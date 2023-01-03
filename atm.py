@@ -1,4 +1,4 @@
-from app import Conta
+from conta import Conta
 
 def Atm(): 
     nome = input('Olá! Como deseja se chamado? ').strip()  
